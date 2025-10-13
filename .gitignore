@@ -1,0 +1,15 @@
+# Obsidian
+.obsidian/
+
+# System files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE files
+.vscode/
+*.code-workspace
+
+# Temporary files
+*.tmp
+*.temp
