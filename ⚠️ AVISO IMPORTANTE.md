@@ -1,4 +1,4 @@
-# ⚠️ AVISO IMPORTANTE - NOTA DE VERSÃO v1.0.0
+# ⚠️ AVISO IMPORTANTE - NOTA DE VERSÃO v1.1.0
 
 Para garantir uma ou a **melhor experiência de leitura e navegação**, os documentos desta pasta devem ser abertos em um ambiente que ofereça **suporte completo ao formato Markdown (.md)**.  
 
@@ -20,10 +20,9 @@ Estes são os documentos que devem ser abertos com suporte a Markdown:
 > 💡 Dica: no Obsidian, use o **Modo de Visualização** para uma leitura ainda mais agradável.
 
 ## 📦 Versão do Projeto
-**Versão Atual: v1.0.0**
-- Primeira versão estável do repositório
-- Documentação completa dos projetos de desenvolvimento
-- Estrutura organizada por unidades curriculares
+**Versão Atual: v1.1.0**
+- Adicionada documentação da UC10 - Testes de Software
+- Atualizações na documentação geral
 
 ## 📄 Licença
 Este projeto está licenciado sob a licença MIT - veja o arquivo [LICENSE](LICENSE) para detalhes.
