@@ -5,6 +5,12 @@ Todas as mudanças notáveis neste projeto serão documentadas neste arquivo.
 O formato é baseado em [Keep a Changelog](https://keepachangelog.com/pt-BR/1.0.0/),
 e este projeto adere ao [Versionamento Semântico](https://semver.org/lang/pt-BR/spec/v2.0.0.html).
 
+## [1.1.0] - 2025-10-13
+
+### Adicionado
+- Adicionada documentação da UC10 - Testes de Software
+- Novo documento: "A Arte e a Ciência dos Testes de Software"
+
 ## [1.0.0] - 2025-10-13
 
 ### Adicionado

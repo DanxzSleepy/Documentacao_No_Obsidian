@@ -1,6 +1,6 @@
 # Documentação de Projetos - Desenvolvimento de Software
 
-![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)
+![Version](https://img.shields.io/badge/version-1.1.0-blue.svg)
 ![License](https://img.shields.io/badge/license-MIT-green.svg)
 
 Este repositório contém a documentação completa dos projetos desenvolvidos durante o curso de Desenvolvimento de Software, abrangendo as unidades curriculares e atividades práticas nas áreas de:
@@ -10,6 +10,7 @@ Este repositório contém a documentação completa dos projetos desenvolvidos d
 - Desenvolvimento Mobile
 - Manutenção de Software
 - Gestão Ágil de Projetos
+- Testes de Software
 
 ## 📚 Estrutura do Repositório
 
@@ -19,6 +20,7 @@ Este repositório contém a documentação completa dos projetos desenvolvidos d
 ├── Manutenção_Contínua_e_Gestão_Ágil_de_Projetos-Biblioteca_Online
 ├── Manutenção_de_Software
 ├── UC9_Atividades
+├── UC10_Atividades
 └── ⚠️ AVISO IMPORTANTE.md
 ```
 
@@ -58,6 +60,11 @@ Atividades práticas da Unidade Curricular 9:
 - Evolução em aplicações Web
 - Programação Web com CRUD
 
+### 6. Atividades UC10
+Atividades práticas da Unidade Curricular 10:
+- Testes de Software
+- "A Arte e a Ciência dos Testes de Software"
+
 ## 🛠️ Como Visualizar a Documentação
 
 Para a melhor experiência de leitura e navegação:
@@ -78,7 +85,7 @@ Para a melhor experiência de leitura e navegação:
 
 ## 📦 Versão
 
-**v1.0.0** - Primeira versão estável do repositório
+**v1.1.0** - Atualização com conteúdo da UC10 (Testes de Software)
 
 ## 📄 Licença
 
