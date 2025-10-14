@@ -1,6 +1,6 @@
 # Documentação de Projetos - Desenvolvimento de Software
 
-![Version](https://img.shields.io/badge/version-1.1.0-blue.svg)
+![Version](https://img.shields.io/badge/version-1.2.0-blue.svg)
 ![License](https://img.shields.io/badge/license-MIT-green.svg)
 
 Este repositório contém a documentação completa dos projetos desenvolvidos durante o curso de Desenvolvimento de Software, abrangendo as unidades curriculares e atividades práticas nas áreas de:
@@ -17,7 +17,6 @@ Este repositório contém a documentação completa dos projetos desenvolvidos d
 ```
 ├── 1 - Criando README – Web, Desktop e Mobile
 ├── Analise_E_Atualizacao_De_Geral
-├── Manutenção_Contínua_e_Gestão_Ágil_de_Projetos-Biblioteca_Online
 ├── Manutenção_de_Software
 ├── UC9_Atividades
 ├── UC10_Atividades
@@ -38,20 +37,14 @@ Projetos práticos com análise de código antes e depois de melhorias:
 - Aplicações Python (PaintCompleto, PongGame)
 - Aplicações Kivy (UC8)
 
-### 3. Manutenção Contínua e Gestão Ágil
-Documentação do processo de manutenção contínua com metodologias ágeis:
-- Backlog e Sprint Planning
-- Daily Meetings
-- Revisão e Retrospectiva
-
-### 4. Manutenção de Software
+### 3. Manutenção de Software
 Estudos sobre os diferentes tipos de manutenção:
 - Manutenção Corretiva
 - Manutenção Adaptativa
 - Manutenção Evolutiva
 - Manutenção Preventiva
 
-### 5. Atividades UC9
+### 4. Atividades UC9
 Atividades práticas da Unidade Curricular 9:
 - Tipos de manutenção de software
 - Protocolo de manutenção
@@ -60,10 +53,17 @@ Atividades práticas da Unidade Curricular 9:
 - Evolução em aplicações Web
 - Programação Web com CRUD
 
-### 6. Atividades UC10
+### 5. Atividades UC10
 Atividades práticas da Unidade Curricular 10:
 - Testes de Software
 - "A Arte e a Ciência dos Testes de Software"
+- Projeto de Simulação da Biblioteca Online
+  - Cenário e Issues
+  - Scrum e Sprints
+  - Kanban e Execução
+  - Daily Scrum
+  - Revisão e Retrospectiva
+  - Tipos de Manutenção aplicados ao projeto
 
 ## 🛠️ Como Visualizar a Documentação
 
@@ -85,7 +85,7 @@ Para a melhor experiência de leitura e navegação:
 
 ## 📦 Versão
 
-**v1.1.0** - Atualização com conteúdo da UC10 (Testes de Software)
+**v1.2.0** - Atualização com conteúdo completo da UC10 (Biblioteca Online)
 
 ## 📄 Licença
 

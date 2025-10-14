@@ -25,3 +25,6 @@ Melhora funcionalidades existentes ou adiciona novas.
 **Exemplo na Biblioteca Online:**
 - Erro: Sistema não possui filtro por "Autor Mais Popular".
 - Correção: Implementar filtro no front-end e back-end, testar busca e exibição.
+
+
+## Os codigos de exemplo estao em [[Tipos de Manutenção com Exemplos em Código Biblioteca]]
