@@ -6,46 +6,59 @@ kanban-plugin: board
 
 ## Backlog
 
-- [ ] Login não funciona (Corretiva)
-- [ ] Refatorar módulo empréstimos (Preventiva)
-- [ ] Migrar API de pagamento (Adaptativa)
-- [ ] Filtro "Autor Mais Popular" (Evolutiva)
-- [ ] Relatório de devoluções (Evolutiva menor)
-- [ ] Notificação de atrasos (Preventiva menor)
-- [ ] Ajuste UI home (Evolutiva menor)
+- [ ] Implementar sistema de reservas de livros
+- [ ] Adicionar funcionalidade de renovação de empréstimos
+- [ ] Criar relatórios estatísticos avançados
+- [ ] Implementar sistema de multas por atraso
+- [ ] Adicionar funcionalidade de busca avançada
+- [ ] Implementar notificações por email
+- [ ] Criar API REST para integração externa
 
 
 ## A Fazer (Sprint Backlog - prioridade)
 
-- [ ] Login não funciona
-- [ ] Migrar API de pagamento
-- [ ] Refatorar módulo empréstimos
-- [ ] Filtro "Autor Mais Popular"
-- [ ] Relatório de devoluções
+- [ ] Corrigir erros intencionais no modelo de dados
+- [ ] Implementar interface web completa
+- [ ] Criar sistema de autenticação e perfis de usuário
+- [ ] Implementar funcionalidade de empréstimos
+- [ ] Configurar administração do Django
 
 
 ## Em Andamento (máx 2 tarefas)
 
-- [ ] Login não funciona
-- [ ] Migrar API de pagamento
+- [ ] Corrigir erros intencionais no modelo de dados
+- [ ] Implementar interface web completa
 
 
 ## Revisão/Teste
 
-- [ ] Filtro "Autor Mais Popular" (Front-end pronto, back-end testando)
-- [ ] Relatório de devoluções (Código pronto, aguardando revisão)
+- [ ] Criar sistema de autenticação e perfis de usuário (Interface pronta, testando fluxos de usuário)
+- [ ] Implementar funcionalidade de empréstimos (Views implementadas, testando permissões)
 
 
 ## Concluído (Done)
 
-- [ ] Login corrigido
-- [ ] API pagamento migrada
+- [x] Criar projeto Django inicial
+- [x] Definir modelos de dados (Book, Author, Member, BorrowRecord)
+- [x] Configurar versionamento Git com tags semânticas
+- [x] Criar documentação de erros intencionais
+- [x] Corrigir todos os erros identificados nos modelos
+- [x] Criar documentação das correções aplicadas
+- [x] Implementar templates HTML com Bootstrap
+- [x] Criar páginas para visualização de livros, autores, membros e empréstimos
+- [x] Popular banco de dados com dados de exemplo
+- [x] Implementar sistema de autenticação completa
+- [x] Criar perfis de usuário (membro, bibliotecário, administrador)
+- [x] Implementar controle de acesso baseado em perfis
+- [x] Criar página de perfil do usuário
+- [x] Corrigir funcionalidade de logout
+- [x] Configurar administração do Django para todos os models
 
 
 
 
 %% kanban:settings
 ```
-{"kanban-plugin":"board","list-collapse":[null,null]}
+{"kanban-plugin":"board","list-collapse":[false,false,false,false,false]}
 ```
 %%
