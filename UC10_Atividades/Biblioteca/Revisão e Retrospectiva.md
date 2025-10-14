@@ -1,5 +1,5 @@
-# Revisão da Sprint
-- **Objetivo:** Desenvolver um sistema de biblioteca completo com interface web, autenticação e controle de acesso
+# Revisão da Sprint (Simulação Acadêmica)
+- **Objetivo:** Simular o desenvolvimento de um sistema de biblioteca completo aplicando metodologias ágeis
 - **Concluído:** 
   - Projeto Django inicial criado com models completos
   - Interface web completa implementada com Bootstrap
@@ -12,7 +12,7 @@
   - Testes finais e validação de todas as funcionalidades
   - Atualização final da documentação
 
-# Retrospectiva
+# Retrospectiva (Simulação Acadêmica)
 - **Começar:** 
   - Testar código antes de mover para Em Andamento
   - Criar testes automatizados para as funcionalidades principais
@@ -26,8 +26,16 @@
   - Documentação detalhada de erros e correções
   - Revisões regulares do código
 
-# Lições Aprendidas
+# Lições Aprendidas (Simulação Acadêmica)
 - A importância de uma boa arquitetura de usuários desde o início do projeto
 - Necessidade de testar funcionalidades de autenticação e logout cuidadosamente
 - Valor de manter uma documentação atualizada durante todo o desenvolvimento
 - Benefícios do versionamento semântico para acompanhamento de progresso
+
+## Contexto Acadêmico
+Esta simulação faz parte da atividade da disciplina UC10, com o objetivo de praticar:
+- Aplicação de metodologias ágeis (Scrum/Kanban)
+- Versionamento semântico de software
+- Documentação técnica
+- Desenvolvimento web com Django
+- Gestão de projetos de software

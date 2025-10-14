@@ -1,18 +1,22 @@
 #FavorAbrirNoObsidian #MaisFacilVisualizacao
-### O Quadro Comparativo
+### O Quadro Comparativo (Simulação Acadêmica)
 
-| Tipo de Manutenção | Definição (resumida)                                                                 | Exemplo Prático                                                                       |
+| Tipo de Manutenção | Definição (resumida)                                                                 | Exemplo Prático (Simulação Acadêmica)                                                 |
 | ------------------ | ------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------- |
 | Corretiva          | Corrige erros ou falhas que prejudicam o funcionamento do software.                  | Resolver um bug que faz um aplicativo travar ao abrir uma foto.                       |
 | Adaptativa         | Ajusta o sistema para que funcione em novos ambientes, dispositivos ou regras.       | Atualizar um sistema de vendas para atender a uma nova lei fiscal.                    |
 | Perfectiva         | Melhora o desempenho ou adiciona novas funcionalidades ao software.                  | Incluir um filtro de pesquisa avançado em um site de e-commerce.                      |
 | Preventiva         | Evitar falhas futuras, garantindo estabilidade, segurança e durabilidade do sistema. | Atualizar bibliotecas de segurança e fazer manutenção no banco de dados regularmente. |
 
-### 1) A Corretiva — **corrigir um bug**
+## Simulação Acadêmica - Tipos de Manutenção de Software
 
-**Cenário:** função de login com bug (usa `is` em vez de `==`, o que leva a comparações incorretas). Vou mostrar o código com bug e depois o conserto (usando `hmac.compare_digest` para comparação segura).
+Esta documentação faz parte da atividade acadêmica da disciplina UC10, onde simulamos diferentes tipos de manutenção de software através de exemplos práticos.
 
-**Antes (com bug)**:
+### 1) A Corretiva — **corrigir um bug** (Simulação Acadêmica)
+
+**Cenário (Simulado):** função de login com bug (usa `is` em vez de `==`, o que leva a comparações incorretas). Vou mostrar o código com bug e depois o conserto (usando `hmac.compare_digest` para comparação segura).
+
+**Antes (com bug - Simulação)**:
 
 ```python
 # login_bug.py
@@ -32,7 +36,7 @@ print(login("alice", "s3cr3t"))  # dependendo da internamentação de string pod
 
 **Por que é bug?** `is` verifica identidade do objeto, não conteúdo. Strings pequenas às vezes são internadas e parecem funcionar, mas o comportamento é imprevisível e errado.
 
-**Depois (corrigido)**:
+**Depois (corrigido - Simulação)**:
 
 ```python
 # login_fixed.py
@@ -53,11 +57,11 @@ print(login("alice", "wrong"))   # False
 
 ---
 
-### 2) A Adaptativa — **ajustar o sistema a novo ambiente / API**
+### 2) A Adaptativa — **ajustar o sistema a novo ambiente / API** (Simulação Acadêmica)
 
-**Cenário:** seu código chamava uma API `v1` e esperava a chave `data`. A API mudou (v2) e agora pode retornar `result` ou `user`. Além disso, queremos permitir mudar a URL base por variável de ambiente (bom para adaptar a diferentes ambientes: dev/staging/prod).
+**Cenário (Simulado):** seu código chamava uma API `v1` e esperava a chave `data`. A API mudou (v2) e agora pode retornar `result` ou `user`. Além disso, queremos permitir mudar a URL base por variável de ambiente (bom para adaptar a diferentes ambientes: dev/staging/prod).
 
-**Antes (versão antiga, quebra quando muda o JSON)**:
+**Antes (versão antiga, quebra quando muda o JSON - Simulação)**:
 
 ```python
 # fetch_old.py
@@ -70,7 +74,7 @@ def fetch_user(user_id):
     return r.json()['data']
 ```
 
-**Depois (adaptado para novas respostas + base URL via ENV)**:
+**Depois (adaptado para novas respostas + base URL via ENV - Simulação)**:
 
 ```python
 # fetch_adapted.py
@@ -103,11 +107,11 @@ def fetch_user(user_id):
 
 ---
 
-### 3) A Perfectiva — **melhoria de desempenho / nova funcionalidade**
+### 3) A Perfectiva — **melhoria de desempenho / nova funcionalidade** (Simulação Acadêmica)
 
-**Cenário:** função `fib` (Fibonacci) recursiva é lenta. Melhoramos o desempenho com memoização (`lru_cache`)  perfectiva porque melhora performance.
+**Cenário (Simulado):** função `fib` (Fibonacci) recursiva é lenta. Melhoramos o desempenho com memoização (`lru_cache`)  perfectiva porque melhora performance.
 
-**Antes (lento)**:
+**Antes (lento - Simulação)**:
 
 ```python
 # perf_old.py
@@ -120,7 +124,7 @@ def fib(n):
 print(fib(30))
 ```
 
-**Depois (melhorado com cache)**:
+**Depois (melhorado com cache - Simulação)**:
 
 ```python
 # perf_improved.py
@@ -141,11 +145,11 @@ print(fib(100))
 
 ---
 
-### 4) A Preventiva — **evitar problemas futuros**
+### 4) A Preventiva — **evitar problemas futuros** (Simulação Acadêmica)
 
-**Cenário:** salvar um arquivo de configuração de forma simples pode corromper o arquivo se a escrita falhar no meio do processo. Vamos implementar escrita atômica + backup + validação  ações preventivas.
+**Cenário (Simulado):** salvar um arquivo de configuração de forma simples pode corromper o arquivo se a escrita falhar no meio do processo. Vamos implementar escrita atômica + backup + validação  ações preventivas.
 
-**Antes (simples mas arriscado)**:
+**Antes (simples mas arriscado - Simulação)**:
 
 ```python
 # save_old.py
@@ -158,7 +162,7 @@ def save_config(path, config):
 # Se a aplicação for interrompida durante o dump, o arquivo pode ficar corrompido.
 ```
 
-**Depois (preventivo: valida, grava em .tmp, backup e replace atômico)**:
+**Depois (preventivo: valida, grava em .tmp, backup e replace atômico - Simulação)**:
 
 ```python
 # save_preventive.py
@@ -197,4 +201,11 @@ def save_config(path, config):
 
 **Por que é preventiva:** reduz chance de corrupção, garante que exista backup, valida o tipo dos dados e força escrita no disco antes de substituir.
 
+## Objetivo Educacional
+Esta simulação tem como objetivo:
+1. Demonstrar os quatro tipos principais de manutenção de software
+2. Praticar a identificação e correção de diferentes tipos de problemas
+3. Compreender a importância de cada tipo de manutenção no ciclo de vida do software
+4. Aplicar conceitos teóricos em exemplos práticos
 
+Esta documentação faz parte da atividade acadêmica da disciplina UC10.

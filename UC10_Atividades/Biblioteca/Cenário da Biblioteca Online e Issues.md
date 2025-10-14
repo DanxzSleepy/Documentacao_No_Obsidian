@@ -1,8 +1,8 @@
-# Cenário da Biblioteca Online e Issues
+# Cenário da Biblioteca Online e Issues (Simulação Acadêmica)
 
-O sistema é uma biblioteca online que precisa de manutenção contínua e desenvolvimento de novas funcionalidades.
+Esta é uma simulação acadêmica para a disciplina UC10, onde criamos um cenário fictício de uma biblioteca online que precisa de manutenção contínua e desenvolvimento de novas funcionalidades.
 
-## Issues (Demandas) - Versão Original
+## Issues (Demandas) - Versão Original (Simulação)
 
 | Tipo             | Issue                        | Story Points (SP) | Status      |
 | ---------------- | ---------------------------- | ----------------- | ----------- |
@@ -14,7 +14,7 @@ O sistema é uma biblioteca online que precisa de manutenção contínua e desen
 | Preventiva menor | Notificação de atrasos       | 2                 | ✅ Resolvido |
 | Evolutiva menor  | Ajuste UI home               | 2                 | ✅ Resolvido |
 
-## Issues (Demandas) - Projeto Real Implementado
+## Issues (Demandas) - Projeto Real Implementado (Simulação Acadêmica)
 
 | Tipo             | Issue                                              | Story Points (SP) | Status      |
 | ---------------- | -------------------------------------------------- | ----------------- | ----------- |
@@ -26,9 +26,7 @@ O sistema é uma biblioteca online que precisa de manutenção contínua e desen
 | Corretiva        | Corrigir funcionalidade de logout                 | 2                 | ✅ Resolvido |
 | Preventiva       | Criar documentação completa com versionamento     | 3                 | ✅ Resolvido |
 
-> Todas essas Issues vão para o **Backlog** do Kanban e foram distribuídas nas colunas apropriadas em [[Kanban e Execução da Sprint]].
-
-## Descrição das Funcionalidades Implementadas
+## Descrição das Funcionalidades Implementadas (Simulação Acadêmica)
 
 1. **Sistema de Autenticação**: Login/logout completo com diferentes perfis de usuário
 2. **Interface Web**: Design responsivo com Bootstrap para todas as páginas
@@ -36,3 +34,13 @@ O sistema é uma biblioteca online que precisa de manutenção contínua e desen
 4. **Controle de Acesso**: Funcionalidades diferenciadas baseadas no perfil do usuário
 5. **Administração**: Interface administrativa completa do Django
 6. **Documentação**: Documentação completa com versionamento Git (v1.0.0 a v1.4.4)
+
+## Objetivo Educacional
+Esta simulação tem como objetivo:
+- Praticar a identificação e correção de erros em código
+- Aplicar versionamento semântico em projetos de software
+- Implementar funcionalidades web completas com Django
+- Documentar processos de desenvolvimento
+- Aplicar conceitos de manutenção de software
+
+> Todas essas Issues vão para o **Backlog** do Kanban e foram distribuídas nas colunas apropriadas em [[Kanban e Execução da Sprint]].

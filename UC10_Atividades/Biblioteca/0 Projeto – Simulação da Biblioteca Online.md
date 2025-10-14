@@ -1,9 +1,17 @@
-# Projeto – Simulação da Biblioteca Online
+# Projeto – Simulação da Biblioteca Online (Atividade Acadêmica)
 
-Este projeto simula a **manutenção contínua e gestão ágil de projetos** usando Scrum e Sprints, aplicados a um sistema de biblioteca online.
+Este projeto é uma **simulação acadêmica** para a disciplina UC10, demonstrando práticas de desenvolvimento de software, versionamento e gestão ágil de projetos.
 
 ## Status do Projeto
-**✅ CONCLUÍDO** - Sistema de biblioteca completo com interface web, autenticação e controle de acesso
+**✅ CONCLUÍDO** - Simulação completa com sistema de biblioteca funcional
+
+## Descrição da Atividade
+Esta simulação faz parte da atividade acadêmica da disciplina UC10, onde aplicamos conceitos de:
+- Desenvolvimento web com Django
+- Versionamento semântico com Git
+- Gestão ágil usando Scrum e Kanban
+- Documentação técnica em Markdown/Obsidian
+- Tipos de manutenção de software
 
 ## Navegação
 - [[Tipos de Manutenção e Exemplos de Simulados Para a Biblioteca]] → Explica cada tipo de manutenção com exemplos da biblioteca
@@ -14,15 +22,15 @@ Este projeto simula a **manutenção contínua e gestão ágil de projetos** usa
 - [[Revisão e Retrospectiva]] → Resultados da Sprint e aprendizado do processo
 - [[Tipos de Manutenção de Software]] → Tipos e exemplos
 
-## Funcionalidades Implementadas
+## Funcionalidades Implementadas (Simulação)
 - **Sistema de Autenticação**: Login/logout completo com perfis de usuário (membro, bibliotecário, administrador)
 - **Interface Web**: Design responsivo com Bootstrap para todas as funcionalidades
 - **Gestão de Conteúdo**: Cadastro e visualização de livros, autores, membros e empréstimos
 - **Controle de Acesso**: Funcionalidades diferenciadas baseadas no perfil do usuário
 - **Administração**: Interface administrativa completa do Django
-- **Documentação**: Documentação completa com versionamento Git (v1.0.0 a v1.4.4)
+- **Documentação**: Documentação completa com versionamento Git
 
-## Tecnologias Utilizadas
+## Tecnologias Utilizadas (Simulação)
 - **Framework**: Django 5.1.6
 - **Frontend**: HTML5, Bootstrap 5
 - **Banco de Dados**: SQLite
@@ -30,4 +38,7 @@ Este projeto simula a **manutenção contínua e gestão ágil de projetos** usa
 - **Documentação**: Markdown compatível com Obsidian
 
 ## Repositório GitHub
-[Projeto_Biblioteca](https://github.com/DanxzSleepy/Projeto_Biblioteca) - Código fonte completo com histórico de versionamento
+[Projeto_Biblioteca](https://github.com/DanxzSleepy/Projeto_Biblioteca) - Código fonte da simulação com histórico de versionamento
+
+## Versão Atual da Simulação
+**v1.4.4** - Última atualização da documentação com correção de logout

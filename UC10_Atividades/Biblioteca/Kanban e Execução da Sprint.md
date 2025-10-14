@@ -4,7 +4,7 @@ kanban-plugin: board
 
 ---
 
-## Backlog
+## Backlog (Simulação Acadêmica)
 
 - [ ] Implementar sistema de reservas de livros
 - [ ] Adicionar funcionalidade de renovação de empréstimos
@@ -14,8 +14,7 @@ kanban-plugin: board
 - [ ] Implementar notificações por email
 - [ ] Criar API REST para integração externa
 
-
-## A Fazer (Sprint Backlog - prioridade)
+## A Fazer (Sprint Backlog - prioridade na Simulação)
 
 - [ ] Corrigir erros intencionais no modelo de dados
 - [ ] Implementar interface web completa
@@ -23,22 +22,19 @@ kanban-plugin: board
 - [ ] Implementar funcionalidade de empréstimos
 - [ ] Configurar administração do Django
 
-
-## Em Andamento (máx 2 tarefas)
+## Em Andamento (máx 2 tarefas - Simulação)
 
 - [ ] Corrigir erros intencionais no modelo de dados
 - [ ] Implementar interface web completa
 
-
-## Revisão/Teste
+## Revisão/Teste (Simulação)
 
 - [ ] Criar sistema de autenticação e perfis de usuário (Interface pronta, testando fluxos de usuário)
 - [ ] Implementar funcionalidade de empréstimos (Views implementadas, testando permissões)
 
+## Concluído (Done - Simulação Acadêmica)
 
-## Concluído (Done)
-
-- [x] Criar projeto Django inicial
+- [x] Criar projeto Django inicial (Atividade acadêmica)
 - [x] Definir modelos de dados (Book, Author, Member, BorrowRecord)
 - [x] Configurar versionamento Git com tags semânticas
 - [x] Criar documentação de erros intencionais
@@ -54,8 +50,12 @@ kanban-plugin: board
 - [x] Corrigir funcionalidade de logout
 - [x] Configurar administração do Django para todos os models
 
-
-
+## Notas da Simulação
+Esta é uma simulação acadêmica da disciplina UC10 para demonstrar:
+- Aplicação de metodologias ágeis (Scrum/Kanban)
+- Versionamento semântico de software
+- Documentação técnica em formato Obsidian
+- Desenvolvimento web com Django
 
 %% kanban:settings
 ```

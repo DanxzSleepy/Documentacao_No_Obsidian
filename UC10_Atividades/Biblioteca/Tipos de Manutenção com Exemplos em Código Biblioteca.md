@@ -1,8 +1,12 @@
-## **1️⃣ Manutenção Corretiva**
+# Tipos de Manutenção com Exemplos em Código Biblioteca (Simulação Acadêmica)
 
-**Erro:** Usuários não conseguem logar no sistema.
+Esta é uma simulação acadêmica para a disciplina UC10, demonstrando os diferentes tipos de manutenção de software aplicados a um sistema de biblioteca fictício.
 
-**Código com erro (Python/Django exemplo):**
+## **1️⃣ Manutenção Corretiva (Simulação Acadêmica)**
+
+**Erro Simulado:** Usuários não conseguem logar no sistema.
+
+**Código com erro (Python/Django exemplo - Simulação):**
 
 ```python
 # views.py
@@ -16,7 +20,7 @@ def login_user(request):
     # ERRO: faltou tratamento caso user seja None
 ```
 
-**Código corrigido:**
+**Código corrigido (Simulação Acadêmica):**
 
 ```python
 def login_user(request):
@@ -31,7 +35,7 @@ def login_user(request):
         return redirect('login')
 ```
 
-**Backlog / Issue:**
+**Backlog / Issue (Simulação Acadêmica):**
 
 - Tipo: Corretiva
     
@@ -40,7 +44,7 @@ def login_user(request):
 - Story Points: 8
     
 
-**Relatório:**
+**Relatório (Simulação Acadêmica):**
 
 - **Erro:** Login não tratava usuários inválidos → falha de autenticação silenciosa
     
@@ -51,11 +55,11 @@ def login_user(request):
 
 ---
 
-## **2️⃣ Manutenção Preventiva**
+## **2️⃣ Manutenção Preventiva (Simulação Acadêmica)**
 
-**Erro:** Código do módulo de empréstimos antigo e difícil de manter.
+**Erro Simulado:** Código do módulo de empréstimos antigo e difícil de manter.
 
-**Código com erro (Python/Django exemplo):**
+**Código com erro (Python/Django exemplo - Simulação):**
 
 ```python
 def emprestar_livro(user, livro):
@@ -67,7 +71,7 @@ def emprestar_livro(user, livro):
     # ERRO: Código direto, não modularizado e sem tratamento de exceções
 ```
 
-**Código corrigido:**
+**Código corrigido (Simulação Acadêmica):**
 
 ```python
 def emprestar_livro(user, livro):
@@ -85,7 +89,7 @@ def marcar_livro_emprestado(user, livro):
     user.save()
 ```
 
-**Backlog / Issue:**
+**Backlog / Issue (Simulação Acadêmica):**
 
 - Tipo: Preventiva
     
@@ -94,7 +98,7 @@ def marcar_livro_emprestado(user, livro):
 - Story Points: 5
     
 
-**Relatório:**
+**Relatório (Simulação Acadêmica):**
 
 - **Erro:** Código direto, difícil de manter, sem modularização nem tratamento de exceções
     
@@ -105,11 +109,11 @@ def marcar_livro_emprestado(user, livro):
 
 ---
 
-## **3️⃣ Manutenção Adaptativa**
+## **3️⃣ Manutenção Adaptativa (Simulação Acadêmica)**
 
-**Erro:** API de pagamento antiga foi descontinuada
+**Erro Simulado:** API de pagamento antiga foi descontinuada
 
-**Código com erro (Python/Django exemplo):**
+**Código com erro (Python/Django exemplo - Simulação):**
 
 ```python
 def processar_pagamento(valor, cartao):
@@ -119,7 +123,7 @@ def processar_pagamento(valor, cartao):
         raise Exception("Pagamento falhou")
 ```
 
-**Código corrigido:**
+**Código corrigido (Simulação Acadêmica):**
 
 ```python
 def processar_pagamento(valor, cartao):
@@ -129,7 +133,7 @@ def processar_pagamento(valor, cartao):
         raise Exception("Pagamento falhou")
 ```
 
-**Backlog / Issue:**
+**Backlog / Issue (Simulação Acadêmica):**
 
 - Tipo: Adaptativa
     
@@ -138,7 +142,7 @@ def processar_pagamento(valor, cartao):
 - Story Points: 8
     
 
-**Relatório:**
+**Relatório (Simulação Acadêmica):**
 
 - **Erro:** API antiga descontinuada → pagamentos não funcionavam
     
@@ -149,11 +153,11 @@ def processar_pagamento(valor, cartao):
 
 ---
 
-## **4️⃣ Manutenção Evolutiva**
+## **4️⃣ Manutenção Evolutiva (Simulação Acadêmica)**
 
-**Erro:** Sistema não possui filtro por "Autor Mais Popular"
+**Erro Simulado:** Sistema não possui filtro por "Autor Mais Popular"
 
-**Código com erro (Python/Django exemplo):**
+**Código com erro (Python/Django exemplo - Simulação):**
 
 ```python
 # views.py
@@ -163,7 +167,7 @@ def buscar_livros(request):
     return render(request, 'busca.html', {'livros': livros})
 ```
 
-**Código corrigido / evolutivo:**
+**Código corrigido / evolutivo (Simulação Acadêmica):**
 
 ```python
 def buscar_livros(request):
@@ -175,16 +179,16 @@ def buscar_livros(request):
     return render(request, 'busca.html', {'livros': livros})
 ```
 
-**Backlog / Issue:**
+**Backlog / Issue (Simulação Acadêmica):**
 
 - Tipo: Evolutiva
     
-- Título: Implementar filtro “Autor Mais Popular”
+- Título: Implementar filtro "Autor Mais Popular"
     
 - Story Points: 3
     
 
-**Relatório:**
+**Relatório (Simulação Acadêmica):**
 
 - **Erro:** Sistema não apresentava filtro por popularidade do autor
     
@@ -193,3 +197,13 @@ def buscar_livros(request):
 - **Impacto:** Usuários podem ver livros mais populares por autor
     
 
+---
+
+## Objetivo Educacional
+Esta simulação tem como objetivo demonstrar os quatro tipos principais de manutenção de software:
+1. **Corretiva**: Correção de erros identificados
+2. **Preventiva**: Melhoria do código para facilitar manutenção futura
+3. **Adaptativa**: Ajustes para compatibilidade com novas tecnologias
+4. **Evolutiva**: Adição de novas funcionalidades
+
+Esta documentação faz parte da atividade acadêmica da disciplina UC10.
