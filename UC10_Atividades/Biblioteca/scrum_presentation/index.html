@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apresentação Profissional do Scrum</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="presentation-container">
+        <!-- Progress Bar at the top -->
+        <div class="progress-container">
+            <div class="progress-bar">
+                <div class="progress-fill"></div>
+            </div>
+        </div>
+
+        <!-- Slide 1: Introduction -->
+        <div class="slide active" id="slide1">
+            <header class="slide-header">
+                <h1 class="slide-title">Scrum: Framework Ágil para Gerenciar Projetos Complexos</h1>
+            </header>
+            <main class="slide-content">
+                <div class="content-item">
+                    <i class="icon-main fas fa-rocket"></i>
+                    <p class="highlight-text">Framework simples e eficaz para gerenciar projetos complexos</p>
+                </div>
+            </main>
+            <footer class="slide-footer">
+                <span class="slide-counter">Slide 1 de 10</span>
+            </footer>
+        </div>
+
+        <!-- Slide 2: Complexity and When to Use Scrum -->
+        <div class="slide" id="slide2">
+            <header class="slide-header">
+                <h1 class="slide-title">Complexidade e Quando Usar Scrum</h1>
+            </header>
+            <main class="slide-content">
+                <div class="quadrant-container">
+                    <div class="quadrant-chart">
+                        <div class="chart-title">Matriz de Complexidade</div>
+                        <div class="y-axis">
+                            <span class="high">Alta Complexidade Tecnológica</span>
+                            <span class="low">Baixa Complexidade Tecnológica</span>
+                        </div>
+                        <div class="chart-grid">
+                            <div class="quadrant quadrant-visible" id="quad1">
+                                <div class="label">Quadrante 1</div>
+                                <p>Metodologias em Cascata<br><small>(Cenário Previsível)</small></p>
+                            </div>
+                            <div class="quadrant" id="quad2">
+                                <div class="label">Quadrante 2</div>
+                                <p>Scrum<br><small>(Cenário Caótico)</small></p>
+                            </div>
+                            <div class="quadrant" id="quad3">
+                                <div class="label">Quadrante 3</div>
+                                <p>Total Anarquia<br><small>(Impossível de realizar)</small></p>
+                            </div>
+                            <div class="quadrant" id="quad4">
+                                <div class="label">Quadrante 4</div>
+                                <p>Híbrido<br><small>(Combinação)</small></p>
+                            </div>
+                        </div>
+                        <div class="x-axis">
+                            <span class="low">Baixo Conhecimento dos Requisitos</span>
+                            <span class="high">Alto Conhecimento dos Requisitos</span>
+                        </div>
+                    </div>
+                </div>
+            </main>
+            <footer class="slide-footer">
+                <span class="slide-counter">Slide 2 de 10</span>
+            </footer>
+        </div>
+
+        <!-- Slide 3: The 3 Pillars of Scrum -->
+        <div class="slide" id="slide3">
+            <header class="slide-header">
+                <h1 class="slide-title">Os 3 Pilares Fundamentais do Scrum</h1>
+            </header>
+            <main class="slide-content pillars-container">
+                <div class="pillar-card pillar-visible">
+                    <div class="pillar-icon">
+                        <i class="fas fa-eye"></i>
+                    </div>
+                    <h3>Transparência</h3>
+                    <p>Todos os aspectos significativos do processo devem ser visíveis para aqueles responsáveis pelo resultado</p>
+                </div>
+                <div class="pillar-card">
+                    <div class="pillar-icon">
+                        <i class="fas fa-search"></i>
+                    </div>
+                    <h3>Inspeção</h3>
+                    <p>Os usuários do Scrum devem inspecionar frequentemente artefatos e progresso em direção a um objetivo</p>
+                </div>
+                <div class="pillar-card">
+                    <div class="pillar-icon">
+                        <i class="fas fa-sync-alt"></i>
+                    </div>
+                    <h3>Adaptação</h3>
+                    <p>Se um inspector determina que um ou mais aspectos de um processo se desviam dos limites aceitáveis, o processo ou o material sendo processado deve ser ajustado</p>
+                </div>
+            </main>
+            <footer class="slide-footer">
+                <span class="slide-counter">Slide 3 de 10</span>
+            </footer>
+        </div>
+
+        <!-- Slide 4: Scrum Roles -->
+        <div class="slide" id="slide4">
+            <header class="slide-header">
+                <h1 class="slide-title">Os Papéis do Scrum</h1>
+            </header>
+            <main class="slide-content roles-container">
+                <div class="role-card role-visible">
+                    <div class="role-icon">
+                        <i class="fas fa-crown"></i>
+                    </div>
+                    <h3>Product Owner (PO)</h3>
+                    <ul class="role-responsibilities">
+                        <li>Liderança sobre o produto</li>
+                        <li>Visão do produto</li>
+                        <li>Priorização do Backlog</li>
+                    </ul>
+                </div>
+                <div class="role-card">
+                    <div class="role-icon">
+                        <i class="fas fa-chess-knight"></i>
+                    </div>
+                    <h3>Scrum Master (SM)</h3>
+                    <ul class="role-responsibilities">
+                        <li>Coach ágil</li>
+                        <li>Facilitador</li>
+                        <li>Liderança do processo</li>
+                    </ul>
+                </div>
+                <div class="role-card">
+                    <div class="role-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3>Dev Team</h3>
+                    <ul class="role-responsibilities">
+                        <li>Construção do produto</li>
+                        <li>Auto-organizado</li>
+                        <li>Multifuncional</li>
+                    </ul>
+                </div>
+            </main>
+            <footer class="slide-footer">
+                <span class="slide-counter">Slide 4 de 10</span>
+            </footer>
+        </div>
+
+        <!-- Slide 5: Scrum Practices -->
+        <div class="slide" id="slide5">
+            <header class="slide-header">
+                <h1 class="slide-title">O que o Scrum exige (Práticas)</h1>
+            </header>
+            <main class="slide-content practices-container">
+                <div class="practice-section practice-visible">
+                    <div class="practice-icon">
+                        <i class="fas fa-user-friends"></i>
+                    </div>
+                    <h3>3 Papéis</h3>
+                    <ul class="practice-list">
+                        <li>Product Owner</li>
+                        <li>Scrum Master</li>
+                        <li>Dev Team</li>
+                    </ul>
+                </div>
+                <div class="practice-section">
+                    <div class="practice-icon">
+                        <i class="fas fa-calendar-alt"></i>
+                    </div>
+                    <h3>5 Eventos</h3>
+                    <ul class="practice-list">
+                        <li>Planejamento do Sprint</li>
+                        <li>Execução do Sprint</li>
+                        <li>Daily Scrum</li>
+                        <li>Sprint Review</li>
+                        <li>Retrospectiva</li>
+                    </ul>
+                </div>
+                <div class="practice-section">
+                    <div class="practice-icon">
+                        <i class="fas fa-file-alt"></i>
+                    </div>
+                    <h3>3 Artefatos</h3>
+                    <ul class="practice-list">
+                        <li>Product Backlog</li>
+                        <li>Sprint Backlog</li>
+                        <li>Incremento</li>
+                    </ul>
+                </div>
+            </main>
+            <footer class="slide-footer">
+                <span class="slide-counter">Slide 5 de 10</span>
+            </footer>
+        </div>
+
+        <!-- Slide 6: Scrum Flow -->
+        <div class="slide" id="slide6">
+            <header class="slide-header">
+                <h1 class="slide-title">O Fluxo do Scrum</h1>
+            </header>
+            <main class="slide-content flow-container">
+                <div class="flow-diagram">
+                    <div class="flow-step flow-visible" id="step1">
+                        <div class="step-icon">
+                            <i class="fas fa-lightbulb"></i>
+                        </div>
+                        <p>Visão do Produto<br><small>(PO)</small></p>
+                    </div>
+                    <div class="flow-arrow arrow-visible">
+                        <i class="fas fa-arrow-right"></i>
+                    </div>
+                    <div class="flow-step" id="step2">
+                        <div class="step-icon">
+                            <i class="fas fa-list"></i>
+                        </div>
+                        <p>Product Backlog<br><small>(Lista priorizada)</small></p>
+                    </div>
+                    <div class="flow-arrow">
+                        <i class="fas fa-arrow-right"></i>
+                    </div>
+                    <div class="flow-step" id="step3">
+                        <div class="step-icon">
+                            <i class="fas fa-calendar-check"></i>
+                        </div>
+                        <p>Planejamento do Sprint<br><small>(Time Box: 2-4 semanas)</small></p>
+                    </div>
+                    <div class="flow-arrow">
+                        <i class="fas fa-arrow-down"></i>
+                    </div>
+                    <div class="flow-step" id="step4">
+                        <div class="step-icon">
+                            <i class="fas fa-tasks"></i>
+                        </div>
+                        <p>Sprint Backlog<br><small>(Funcionalidades a serem feitas)</small></p>
+                    </div>
+                    <div class="flow-arrow">
+                        <i class="fas fa-arrow-right"></i>
+                    </div>
+                    <div class="flow-step" id="step5">
+                        <div class="step-icon">
+                            <i class="fas fa-laptop-code"></i>
+                        </div>
+                        <p>Execução do Sprint</p>
+                    </div>
+                    <div class="flow-arrow">
+                        <i class="fas fa-arrow-right"></i>
+                    </div>
+                    <div class="flow-step" id="step6">
+                        <div class="step-icon">
+                            <i class="fas fa-comments"></i>
+                        </div>
+                        <p>Daily Scrum<br><small>(Diariamente, 15 min)</small></p>
+                    </div>
+                    <div class="flow-arrow">
+                        <i class="fas fa-arrow-down"></i>
+                    </div>
+                    <div class="flow-step" id="step7">
+                        <div class="step-icon">
+                            <i class="fas fa-box-open"></i>
+                        </div>
+                        <p>Incremento do Produto<br><small>(Entrega Parcial)</small></p>
+                    </div>
+                    <div class="flow-arrow feedback">
+                        <i class="fas fa-redo"></i>
+                    </div>
+                    <div class="flow-step" id="step8">
+                        <div class="step-icon">
+                            <i class="fas fa-sync"></i>
+                        </div>
+                        <p>Feedback → Product Backlog</p>
+                    </div>
+                </div>
+            </main>
+            <footer class="slide-footer">
+                <span class="slide-counter">Slide 6 de 10</span>
+            </footer>
+        </div>
+
+        <!-- Slide 7: Daily Scrum -->
+        <div class="slide" id="slide7">
+            <header class="slide-header">
+                <h1 class="slide-title">Daily Scrum (Reunião Diária - 15 minutos)</h1>
+            </header>
+            <main class="slide-content daily-container">
+                <div class="daily-question question-visible">
+                    <div class="question-icon">
+                        <i class="fas fa-history"></i>
+                    </div>
+                    <h3>O que eu fiz ontem?</h3>
+                    <p>Compartilhar o progresso e contribuições para a meta do Sprint</p>
+                </div>
+                <div class="daily-question">
+                    <div class="question-icon">
+                        <i class="fas fa-tasks"></i>
+                    </div>
+                    <h3>O que eu vou fazer hoje?</h3>
+                    <p>Planejar o trabalho para ajudar a equipe a atingir a meta</p>
+                </div>
+                <div class="daily-question">
+                    <div class="question-icon">
+                        <i class="fas fa-exclamation-triangle"></i>
+                    </div>
+                    <h3>Existe algum impedimento?</h3>
+                    <p>Identificar obstáculos que possam impedir o progresso</p>
+                </div>
+            </main>
+            <footer class="slide-footer">
+                <span class="slide-counter">Slide 7 de 10</span>
+            </footer>
+        </div>
+
+        <!-- Slide 8: Sprint Closing Activities -->
+        <div class="slide" id="slide8">
+            <header class="slide-header">
+                <h1 class="slide-title">Atividades de Fechamento do Sprint</h1>
+            </header>
+            <main class="slide-content closing-container">
+                <div class="activity-card activity-visible">
+                    <div class="activity-icon">
+                        <i class="fas fa-presentation"></i>
+                    </div>
+                    <h3>Sprint Review</h3>
+                    <p><strong>Validação e Adaptação do Produto</strong></p>
+                    <p>Apresentação do incremento e coleta de feedback</p>
+                </div>
+                <div class="activity-card">
+                    <div class="activity-icon">
+                        <i class="fas fa-clipboard-list"></i>
+                    </div>
+                    <h3>Retrospectiva</h3>
+                    <p><strong>Adaptação do Processo</strong></p>
+                    <p>Análise do que melhorar/parar/continuar</p>
+                </div>
+            </main>
+            <footer class="slide-footer">
+                <span class="slide-counter">Slide 8 de 10</span>
+            </footer>
+        </div>
+
+        <!-- Slide 9: Useful Tools -->
+        <div class="slide" id="slide9">
+            <header class="slide-header">
+                <h1 class="slide-title">Ferramentas Úteis</h1>
+            </header>
+            <main class="slide-content tools-container">
+                <div class="tool-card tool-visible">
+                    <div class="tool-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>Burn Down Chart</h3>
+                    <p>Gráfico: Trabalho vs. Tempo</p>
+                    <div class="chart-placeholder">
+                        <div class="chart-line ideal"></div>
+                        <div class="chart-line actual"></div>
+                    </div>
+                    <p>Linha Ideal vs. linha Real</p>
+                </div>
+                <div class="tool-card">
+                    <div class="tool-icon">
+                        <i class="fas fa-columns"></i>
+                    </div>
+                    <h3>Kanban Board</h3>
+                    <p>Quadro de gestão à vista</p>
+                    <div class="kanban-placeholder">
+                        <div class="kanban-column">
+                            <div class="kanban-header">To Do</div>
+                            <div class="kanban-card"></div>
+                            <div class="kanban-card"></div>
+                        </div>
+                        <div class="kanban-column">
+                            <div class="kanban-header">Doing</div>
+                            <div class="kanban-card"></div>
+                        </div>
+                        <div class="kanban-column">
+                            <div class="kanban-header">Done</div>
+                            <div class="kanban-card"></div>
+                            <div class="kanban-card"></div>
+                            <div class="kanban-card"></div>
+                        </div>
+                    </div>
+                    <p>To Do, Doing, Done</p>
+                </div>
+            </main>
+            <footer class="slide-footer">
+                <span class="slide-counter">Slide 9 de 10</span>
+            </footer>
+        </div>
+
+        <!-- Slide 10: Summary -->
+        <div class="slide" id="slide10">
+            <header class="slide-header">
+                <h1 class="slide-title">Resumo do Fluxo</h1>
+            </header>
+            <main class="slide-content summary-container">
+                <div class="summary-flow">
+                    <div class="flow-path">
+                        <span class="flow-item flow-item-visible">Visão</span>
+                        <i class="fas fa-arrow-right"></i>
+                        <span class="flow-item">Backlog (Grooming)</span>
+                        <i class="fas fa-arrow-right"></i>
+                        <span class="flow-item">Planning</span>
+                        <i class="fas fa-arrow-right"></i>
+                        <span class="flow-item">Sprint Backlog</span>
+                        <i class="fas fa-arrow-right"></i>
+                        <span class="flow-item">Daily Scrum</span>
+                        <i class="fas fa-arrow-right"></i>
+                        <span class="flow-item">Incremento</span>
+                    </div>
+                </div>
+                <div class="conclusion">
+                    <p>O Scrum é um framework iterativo e incremental que permite entregar valor de forma contínua, adaptando-se às mudanças e melhorando continuamente.</p>
+                </div>
+            </main>
+            <footer class="slide-footer">
+                <span class="slide-counter">Slide 10 de 10</span>
+            </footer>
+        </div>
+
+        <!-- Navigation Buttons -->
+        <button id="prevBtn" class="nav-btn prev">
+            <i class="fas fa-chevron-left"></i> Anterior
+        </button>
+        <button id="nextBtn" class="nav-btn next">
+            Próximo <i class="fas fa-chevron-right"></i>
+        </button>
+        
+        <!-- Click indicator -->
+        <div class="click-indicator">
+            <i class="fas fa-mouse-pointer"></i>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

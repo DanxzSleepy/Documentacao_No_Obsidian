@@ -64,7 +64,7 @@ print(login("alice", "wrong"))   # False
 **Antes (versão antiga, quebra quando muda o JSON - Simulação)**:
 
 ```python
-# fetch_old.py
+# fetch_old.py 
 import requests
 
 def fetch_user(user_id):
