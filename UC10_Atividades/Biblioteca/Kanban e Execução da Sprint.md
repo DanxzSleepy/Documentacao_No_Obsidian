@@ -4,11 +4,6 @@ kanban-plugin: board
 
 ---
 
-## Navegação do Projeto (Simulação Acadêmica)
-
-Voltar para: [[0 Projeto – Simulação da Biblioteca Online]]  
-Próximo passo: [[Simulação da Sprint (Daily Scrum)]]
-
 ## Backlog (Simulação Acadêmica)
 
 - [ ] Implementar sistema de reservas de livros
