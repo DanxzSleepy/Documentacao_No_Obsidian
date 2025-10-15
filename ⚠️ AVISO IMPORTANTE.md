@@ -1,4 +1,4 @@
-# ⚠️ AVISO IMPORTANTE - NOTA DE VERSÃO v1.2.0
+# ⚠️ AVISO IMPORTANTE - NOTA DE VERSÃO v1.6.1
 
 Para garantir uma ou a **melhor experiência de leitura e navegação**, os documentos desta pasta devem ser abertos em um ambiente que ofereça **suporte completo ao formato Markdown (.md)**.  
 
@@ -20,9 +20,10 @@ Estes são os documentos que devem ser abertos com suporte a Markdown:
 > 💡 Dica: no Obsidian, use o **Modo de Visualização** para uma leitura ainda mais agradável.
 
 ## 📦 Versão do Projeto
-**Versão Atual: v1.2.0**
-- Adicionada documentação completa da Biblioteca Online na UC10
-- Atualizações na documentação geral
+**Versão Atual: v1.6.1**
+- Atualização da simulação acadêmica da Biblioteca Online
+- Adicionada apresentação interativa Scrum
+- Atualizações no projeto Django da Biblioteca (v1.6.1)
 
 ## 📄 Licença
 Este projeto está licenciado sob a licença MIT - veja o arquivo [LICENSE](LICENSE) para detalhes.

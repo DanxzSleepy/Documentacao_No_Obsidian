@@ -1,6 +1,6 @@
 # Documentação de Projetos - Desenvolvimento de Software
 
-![Version](https://img.shields.io/badge/version-1.2.0-blue.svg)
+![Version](https://img.shields.io/badge/version-1.6.1-blue.svg)
 ![License](https://img.shields.io/badge/license-MIT-green.svg)
 
 Este repositório contém a documentação completa dos projetos desenvolvidos durante o curso de Desenvolvimento de Software, abrangendo as unidades curriculares e atividades práticas nas áreas de:
@@ -64,6 +64,8 @@ Atividades práticas da Unidade Curricular 10:
   - Daily Scrum
   - Revisão e Retrospectiva
   - Tipos de Manutenção aplicados ao projeto
+  - Sistema completo de gerenciamento de biblioteca (Django)
+  - Apresentação interativa Scrum
 
 ## 🛠️ Como Visualizar a Documentação
 
@@ -85,7 +87,7 @@ Para a melhor experiência de leitura e navegação:
 
 ## 📦 Versão
 
-**v1.2.0** - Atualização com conteúdo completo da UC10 (Biblioteca Online)
+**v1.6.1** - Atualização com simulação acadêmica completa da Biblioteca Online e apresentação Scrum interativa
 
 ## 📄 Licença
 
