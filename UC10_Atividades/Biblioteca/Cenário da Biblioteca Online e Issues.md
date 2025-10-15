@@ -33,7 +33,7 @@ Esta é uma simulação acadêmica para a disciplina UC10, onde criamos um cená
 3. **Gestão de Conteúdo**: CRUD completo para livros, autores, membros e empréstimos
 4. **Controle de Acesso**: Funcionalidades diferenciadas baseadas no perfil do usuário
 5. **Administração**: Interface administrativa completa do Django
-6. **Documentação**: Documentação completa com versionamento Git (v1.0.0 a v1.4.4)
+6. **Documentação**: Documentação completa com versionamento Git (v1.0.0 a v1.6.1)
 
 ## Objetivo Educacional
 Esta simulação tem como objetivo:

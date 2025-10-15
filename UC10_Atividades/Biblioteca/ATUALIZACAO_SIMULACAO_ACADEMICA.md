@@ -8,7 +8,7 @@ Esta é uma atualização completa de todos os arquivos de documentação para c
 - Adicionado título explícito "Atividade Acadêmica"
 - Inclusão de descrição clara do objetivo educacional
 - Atualização do status para "CONCLUÍDO - Simulação completa"
-- Adicionadas informações sobre versão da simulação (v1.4.4)
+- Adicionadas informações sobre versão da simulação (v1.6.1)
 
 ### 2. [[Scrum e Sprints]]
 - Adicionado "(Aplicado na Simulação Acadêmica)" no título
@@ -90,5 +90,8 @@ A simulação segue o mesmo versionamento semântico do projeto real:
 - **v1.4.2**: Atualização da documentação
 - **v1.4.3**: Correção da funcionalidade de logout
 - **v1.4.4**: Documentação final atualizada
+- **v1.5.0**: Sistema de solicitações de empréstimo
+- **v1.6.0**: Sistema de registro de usuários e painel do usuário
+- **v1.6.1**: Correções de acesso e edição de perfil
 
 Esta atualização completa garante que todos os documentos reflitam claramente seu propósito como **simulação acadêmica** da disciplina UC10.

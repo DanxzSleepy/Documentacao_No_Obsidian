@@ -56,7 +56,7 @@ Este documento resume todas as atualizações feitas nos arquivos de documentaç
 
 4. **Documentação e Versionamento**
    - Documentação completa em Markdown/Obsidian
-   - Versionamento Git com tags semânticas (v1.0.0 a v1.4.4)
+   - Versionamento Git com tags semânticas (v1.0.0 a v1.6.1)
    - Registro detalhado de erros e correções
 
 ## 📈 Progresso do Projeto
