@@ -1,3 +1,8 @@
+# 🔄 Navegação do Projeto (Simulação Acadêmica)
+
+Voltar para: [[Tipos de Manutenção e Exemplos de Simulados Para a Biblioteca]]  
+Próximo passo: [[0 Projeto – Simulação da Biblioteca Online]]
+
 # Tipos de Manutenção com Exemplos em Código Biblioteca (Simulação Acadêmica)
 
 Esta é uma simulação acadêmica para a disciplina UC10, demonstrando os diferentes tipos de manutenção de software aplicados a um sistema de biblioteca fictício.
@@ -198,12 +203,3 @@ def buscar_livros(request):
     
 
 ---
-
-## Objetivo Educacional
-Esta simulação tem como objetivo demonstrar os quatro tipos principais de manutenção de software:
-1. **Corretiva**: Correção de erros identificados
-2. **Preventiva**: Melhoria do código para facilitar manutenção futura
-3. **Adaptativa**: Ajustes para compatibilidade com novas tecnologias
-4. **Evolutiva**: Adição de novas funcionalidades
-
-Esta documentação faz parte da atividade acadêmica da disciplina UC10.

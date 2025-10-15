@@ -13,14 +13,18 @@ Esta simulação faz parte da atividade acadêmica da disciplina UC10, onde apli
 - Documentação técnica em Markdown/Obsidian
 - Tipos de manutenção de software
 
-## Navegação
-- [[Tipos de Manutenção e Exemplos de Simulados Para a Biblioteca]] → Explica cada tipo de manutenção com exemplos da biblioteca
-- [[Scrum e Sprints]] → O que é Scrum, papéis, Sprints e Story Points
-- [[Cenário da Biblioteca Online e Issues]] → Cenário fictício da biblioteca com todas as demandas
-- [[Kanban e Execução da Sprint]] → Kanban com tarefas distribuídas por coluna
-- [[Simulação da Sprint (Daily Scrum)]] → Como a Sprint foi executada passo a passo
-- [[Revisão e Retrospectiva]] → Resultados da Sprint e aprendizado do processo
-- [[Tipos de Manutenção de Software]] → Tipos e exemplos
+## 🔄 Fluxo de Desenvolvimento do Projeto (Clique para Navegar)
+
+Para entender como o projeto foi desenvolvido passo a passo, siga esta sequência:
+
+1. [[Scrum e Sprints]] → Entendendo o framework Scrum e como aplicamos no projeto
+2. [[Cenário da Biblioteca Online e Issues]] → Cenário fictício e requisitos do sistema
+3. [[Kanban e Execução da Sprint]] → Como organizamos o trabalho no quadro Kanban
+4. [[Simulação da Sprint (Daily Scrum)]] → Como executamos as tarefas dia a dia
+5. [[Revisão e Retrospectiva]] → Resultados da Sprint e aprendizados
+6. [[Tipos de Manutenção de Software]] → Conceitos teóricos de manutenção
+7. [[Tipos de Manutenção e Exemplos de Simulados Para a Biblioteca]] → Aplicação prática dos conceitos
+8. [[Tipos de Manutenção com Exemplos em Código Biblioteca]] → Exemplos reais de código
 
 ## Histórico de Versões e Evolução do Projeto
 

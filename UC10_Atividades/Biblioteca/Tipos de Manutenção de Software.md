@@ -1,4 +1,9 @@
 #FavorAbrirNoObsidian #MaisFacilVisualizacao
+### 🔄 Navegação do Projeto (Simulação Acadêmica)
+
+Voltar para: [[Revisão e Retrospectiva]]  
+Próximo passo: [[Tipos de Manutenção e Exemplos de Simulados Para a Biblioteca]]
+
 ### O Quadro Comparativo (Simulação Acadêmica)
 
 | Tipo de Manutenção | Definição (resumida)                                                                 | Exemplo Prático (Simulação Acadêmica)                                                 |
@@ -198,14 +203,3 @@ def save_config(path, config):
 # Uso:
 # save_config("app_config.json", {"theme": "dark", "version": 2})
 ```
-
-**Por que é preventiva:** reduz chance de corrupção, garante que exista backup, valida o tipo dos dados e força escrita no disco antes de substituir.
-
-## Objetivo Educacional
-Esta simulação tem como objetivo:
-1. Demonstrar os quatro tipos principais de manutenção de software
-2. Praticar a identificação e correção de diferentes tipos de problemas
-3. Compreender a importância de cada tipo de manutenção no ciclo de vida do software
-4. Aplicar conceitos teóricos em exemplos práticos
-
-Esta documentação faz parte da atividade acadêmica da disciplina UC10.

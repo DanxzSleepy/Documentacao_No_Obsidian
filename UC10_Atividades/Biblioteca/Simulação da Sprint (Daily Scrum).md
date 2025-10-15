@@ -1,3 +1,8 @@
+## 🔄 Navegação do Projeto (Simulação Acadêmica)
+
+Voltar para: [[Kanban e Execução da Sprint]]  
+Próximo passo: [[Revisão e Retrospectiva]]
+
 ## Daily Scrum 1 (Simulação Acadêmica)
 - **O que fiz:** Criei o projeto Django inicial e defini os modelos de dados (Book, Author, Member, BorrowRecord)
 - **O que farei:** Implementar os models com erros intencionais para demonstração e configurar o versionamento Git

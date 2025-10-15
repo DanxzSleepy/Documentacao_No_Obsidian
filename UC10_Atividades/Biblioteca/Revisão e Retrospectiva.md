@@ -1,3 +1,8 @@
+# 🔄 Navegação do Projeto (Simulação Acadêmica)
+
+Voltar para: [[Simulação da Sprint (Daily Scrum)]]  
+Próximo passo: [[Tipos de Manutenção de Software]]
+
 # Revisão da Sprint (Simulação Acadêmica)
 - **Objetivo:** Simular o desenvolvimento de um sistema de biblioteca completo aplicando metodologias ágeis
 - **Concluído:** 

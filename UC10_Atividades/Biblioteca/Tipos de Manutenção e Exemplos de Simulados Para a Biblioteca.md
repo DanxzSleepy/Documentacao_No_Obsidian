@@ -1,3 +1,8 @@
+## 🔄 Navegação do Projeto (Simulação Acadêmica)
+
+Voltar para: [[Tipos de Manutenção de Software]]  
+Próximo passo: [[Tipos de Manutenção com Exemplos em Código Biblioteca]]
+
 ## 1. Manutenção Corretiva (Simulação Acadêmica)
 Corrige erros que já ocorreram no sistema.
 
