@@ -1,0 +1,20 @@
+# .gitignore
+.obsidian/
+.DS_Store
+Thumbs.db
+Contexto_Total/
+*.log
+node_modules/
+__pycache__/
+*.tmp
+*.bak
+
+# Documentation files not needed 
+docs/VIDEO_GUIDE.md
+
+# Playwright
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+/playwright/.auth/

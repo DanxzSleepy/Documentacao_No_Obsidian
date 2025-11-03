@@ -1,0 +1,23 @@
+{
+  "name": "uc10_tds_sistema_de_cadastro_de_clientes",
+  "version": "1.0.0",
+  "description": "![Version](https://img.shields.io/badge/version-2.5.7-blue) ![License](https://img.shields.io/badge/license-MIT-green) ![Status](https://img.shields.io/badge/status-ativo-brightgreen) ![Theme](https://img.shields.io/badge/theme-AvoidNess-purple)",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs",
+    "test": "tests"
+  },
+  "scripts": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.56.1",
+    "@types/node": "^24.10.0",
+    "playwright": "^1.56.1"
+  },
+  "dependencies": {
+    "playwright-core": "^1.56.1",
+    "undici-types": "^7.16.0"
+  }
+}

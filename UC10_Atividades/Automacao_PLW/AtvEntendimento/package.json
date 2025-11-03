@@ -1,0 +1,17 @@
+{
+  "name": "at11talvez",
+  "version": "1.0.0",
+  "description": "",
+  "main": "impacto.js",
+  "scripts": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "playwright": "^1.56.1"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.56.1",
+    "@types/node": "^24.10.0"
+  }
+}

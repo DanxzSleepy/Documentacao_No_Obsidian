@@ -1,0 +1,4 @@
+# Configuração para GitHub Pages
+theme: jekyll-theme-minimal
+title: Sistema de Cadastro de Clientes
+description: Um sistema completo de cadastro de clientes com validações e persistência local
