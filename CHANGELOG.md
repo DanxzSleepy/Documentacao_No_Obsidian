@@ -15,6 +15,9 @@ e este projeto adere ao [Versionamento Semântico](https://semver.org/lang/pt-BR
 - Atualização do projeto_biblioteca para versão 1.6.1
 - Adicionado arquivo zip do projeto_biblioteca versão 1.6.0
 
+### Modificado
+- Atualização do README.md com badges melhorados para versão, licença, status e plataforma
+
 ## [1.6.0] - 2025-10-14
 
 ### Adicionado
