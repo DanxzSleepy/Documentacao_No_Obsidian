@@ -1,7 +1,9 @@
 # Documentação de Projetos - Desenvolvimento de Software
 
-![Version](https://img.shields.io/badge/version-1.6.1-blue.svg)
-![License](https://img.shields.io/badge/license-MIT-green.svg)
+![Version](https://img.shields.io/badge/version-v1.6.1-blue)
+![License](https://img.shields.io/badge/license-MIT-green)
+![Status](https://img.shields.io/badge/status-ativo-brightgreen)
+![Platform](https://img.shields.io/badge/platform-Obsidian%20%7C%20VSCode-blue)
 
 Este repositório contém a documentação completa dos projetos desenvolvidos durante o curso de Desenvolvimento de Software, abrangendo as unidades curriculares e atividades práticas nas áreas de:
 
